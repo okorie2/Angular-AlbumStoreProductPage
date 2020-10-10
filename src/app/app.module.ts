@@ -8,19 +8,22 @@ import { ProductPageComponent } from './product-page/product-page.component';
 import { ProducrDescriptionComponent } from './producr-description/producr-description.component';
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 
+import { ProductService } from './product.service';
+
 @NgModule({
   declarations: [
     AppComponent,
     ProductPageComponent,
     ProducrDescriptionComponent,
-    ProductDescriptionComponent
+    ProductDescriptionComponent,
+    
   ],
   imports: [
     BrowserModule,
     FormsModule,
     HttpModule
   ],
-  providers: [],
+  providers: [ProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
