@@ -9,6 +9,7 @@ import { ProducrDescriptionComponent } from './producr-description/producr-descr
 import { ProductDescriptionComponent } from './product-description/product-description.component';
 
 import { ProductService } from './product.service';
+import { ProductTracklistingComponent } from './product-tracklisting/product-tracklisting.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { ProductService } from './product.service';
     ProductPageComponent,
     ProducrDescriptionComponent,
     ProductDescriptionComponent,
+    ProductTracklistingComponent,
     
   ],
   imports: [
